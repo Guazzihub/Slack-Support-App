@@ -24,7 +24,17 @@ Slack Support App is a Node.js application designed to assist with support and c
 
 ### Managing Environment Variables
 
-The app requires certain credentials and configurations to be set in `.env` file.
+The app requires certain credentials and configurations to be set in a `.env` file. Create a `.env` file in the root directory with the following structure:
+
+```env
+# Slack credentials
+SLACK_BOT_TOKEN=xoxb-...         # Your Slack bot token
+SLACK_APP_TOKEN=xapp-...         # Your Slack app token
+SLACK_SIGNING_SECRET=...         # Your Slack signing secret
+
+# Support channel configuration
+SUPPORT_CHANNEL_ID=...           # The ID of the channel where tickets will be routed
+```
 
 ### Installation
 
