@@ -61,8 +61,8 @@ The App will log "⚡️ App is running in socket mode!" when successfully start
 
 ## Usage
 
-1. **Mention the Bot in Slack:**
-   - The bot responds with interactive buttons for feedback, support, or channel management.
+1. **Mention the App in Slack:**
+   - The App responds with interactive buttons for feedback, support, or channel management.
 2. **Interact with the Modals:**
    - Each action opens a modal for user input.
 3. **Receive Tickets in the Support Channel:**
