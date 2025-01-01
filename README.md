@@ -16,13 +16,11 @@ Slack Support App is a Node.js application designed to assist with support and c
 
 ### Prerequisites
 
-1. **Node.js:** Ensure you have Node.js (version 14 or higher) installed.
-2. **Slack App:** You can create the Slack app using the provided `manifest.json` file:
+- **Node.js:** Ensure you have Node.js (version 14 or higher) installed.
+- **Slack App:** You can create the Slack app using the provided `manifest.json` file:
    - Go to your Slack workspace's app management page.
    - Select "Create New App" and choose the "From manifest" option.
    - Paste the contents of `manifest.json` to automatically configure the app.
-
-### Managing Environment Variables
 
 The app requires certain credentials and configurations to be set in a `.env` file. Create a `.env` file in the root directory with the following structure:
 
@@ -38,7 +36,7 @@ SUPPORT_CHANNEL_ID=...           # The ID of the channel where tickets will be r
 
 ### Installation
 
-1. Download the repository:
+1. Download the repository.
 
 2. Install dependencies:
 ```bash
