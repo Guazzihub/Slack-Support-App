@@ -41,19 +41,25 @@ SUPPORT_CHANNEL_ID=...           # The ID of the channel where tickets will be r
 1. Download the repository:
 
 2. Install dependencies:
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+````
 
-### Running the Bot
+### Running the app
 
-Start the bot in Socket Mode:
+Start the app in Socket Mode:
 
 ```bash
 node index.js
 ```
 
-The bot will log "⚡️ App is running in socket mode!" when successfully started.
+Invite the aoo to a Slack channel and mention it to trigger the app:
+
+```bash
+@your-app-name
+```
+
+The App will log "⚡️ App is running in socket mode!" when successfully started.
 
 ## Usage
 
