@@ -53,7 +53,7 @@ Start the app in Socket Mode:
 node index.js
 ```
 
-Invite the aoo to a Slack channel and mention it to trigger the app:
+Invite the app to a Slack channel and mention it to trigger the app:
 
 ```bash
 @your-app-name
