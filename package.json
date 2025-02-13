@@ -12,5 +12,12 @@
   },
   "engines": {
     "node": "14.x"
-  }
+  },
+    "keywords": [
+    "Full-Stack",
+    "Node.js",
+    "Dotenv",
+    "Slack",
+    "API"
+  ]
 }
